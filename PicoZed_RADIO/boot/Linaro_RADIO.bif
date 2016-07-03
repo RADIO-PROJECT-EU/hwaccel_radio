@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]C:\Xilinx\Projects\PicoZed_RADIO\boot\zynq-fsbl_radio.elf
+	C:\Xilinx\Projects\PicoZed_RADIO\boot\System_wrapper.bit
+	C:\Xilinx\Projects\PicoZed_RADIO\boot\u-boot.elf
+}
