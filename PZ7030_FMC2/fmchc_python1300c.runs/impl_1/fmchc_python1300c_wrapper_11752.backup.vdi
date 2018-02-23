@@ -1,0 +1,786 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Jan 26 15:36:22 2018
+# Process ID: 11752
+# Current directory: C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.runs/impl_1
+# Command line: vivado.exe -log fmchc_python1300c_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fmchc_python1300c_wrapper.tcl -notrace
+# Log file: C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.runs/impl_1/fmchc_python1300c_wrapper.vdi
+# Journal file: C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source fmchc_python1300c_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_avnet_hdmi_in_0_0/fmchc_python1300c_avnet_hdmi_in_0_0.dcp' for cell 'fmchc_python1300c_i/avnet_hdmi_in_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_avnet_hdmi_out_0_0/fmchc_python1300c_avnet_hdmi_out_0_0.dcp' for cell 'fmchc_python1300c_i/avnet_hdmi_out_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_0_0/fmchc_python1300c_axi_vdma_0_0.dcp' for cell 'fmchc_python1300c_i/axi_vdma_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_1_0/fmchc_python1300c_axi_vdma_1_0.dcp' for cell 'fmchc_python1300c_i/axi_vdma_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0.dcp' for cell 'fmchc_python1300c_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_fmc_hdmi_cam_iic_0_0/fmchc_python1300c_fmc_hdmi_cam_iic_0_0.dcp' for cell 'fmchc_python1300c_i/fmc_hdmi_cam_iic_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_onsemi_python_cam_0_0/fmchc_python1300c_onsemi_python_cam_0_0.dcp' for cell 'fmchc_python1300c_i/onsemi_python_cam_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_onsemi_python_spi_0_0/fmchc_python1300c_onsemi_python_spi_0_0.dcp' for cell 'fmchc_python1300c_i/onsemi_python_spi_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_proc_sys_reset_0_0/fmchc_python1300c_proc_sys_reset_0_0.dcp' for cell 'fmchc_python1300c_i/proc_sys_reset_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_processing_system7_0_0/fmchc_python1300c_processing_system7_0_0.dcp' for cell 'fmchc_python1300c_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_148_5M_0/fmchc_python1300c_rst_processing_system7_0_148_5M_0.dcp' for cell 'fmchc_python1300c_i/rst_processing_system7_0_148_5M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_149M_0/fmchc_python1300c_rst_processing_system7_0_149M_0.dcp' for cell 'fmchc_python1300c_i/rst_processing_system7_0_149M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_76M_0/fmchc_python1300c_rst_processing_system7_0_76M_0.dcp' for cell 'fmchc_python1300c_i/rst_processing_system7_0_76M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_square_check_0_0/fmchc_python1300c_square_check_0_0.dcp' for cell 'fmchc_python1300c_i/square_check_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_axi4s_vid_out_0_0/fmchc_python1300c_v_axi4s_vid_out_0_0.dcp' for cell 'fmchc_python1300c_i/v_axi4s_vid_out_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cfa_0_0/fmchc_python1300c_v_cfa_0_0.dcp' for cell 'fmchc_python1300c_i/v_cfa_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cresample_0_0/fmchc_python1300c_v_cresample_0_0.dcp' for cell 'fmchc_python1300c_i/v_cresample_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_osd_0_0/fmchc_python1300c_v_osd_0_0.dcp' for cell 'fmchc_python1300c_i/v_osd_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_rgb2ycrcb_0_0/fmchc_python1300c_v_rgb2ycrcb_0_0.dcp' for cell 'fmchc_python1300c_i/v_rgb2ycrcb_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_tc_0_0/fmchc_python1300c_v_tc_0_0.dcp' for cell 'fmchc_python1300c_i/v_tc_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_0_0/fmchc_python1300c_v_vid_in_axi4s_0_0.dcp' for cell 'fmchc_python1300c_i/v_vid_in_axi4s_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_1_0/fmchc_python1300c_v_vid_in_axi4s_1_0.dcp' for cell 'fmchc_python1300c_i/v_vid_in_axi4s_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xlconstant_0_0/fmchc_python1300c_xlconstant_0_0.dcp' for cell 'fmchc_python1300c_i/xlconstant_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xlconstant_1_0/fmchc_python1300c_xlconstant_1_0.dcp' for cell 'fmchc_python1300c_i/xlconstant_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xbar_2/fmchc_python1300c_xbar_2.dcp' for cell 'fmchc_python1300c_i/axi_interconnect_0/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_auto_pc_2/fmchc_python1300c_auto_pc_2.dcp' for cell 'fmchc_python1300c_i/axi_interconnect_0/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xbar_3/fmchc_python1300c_xbar_3.dcp' for cell 'fmchc_python1300c_i/axi_interconnect_1/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_auto_pc_3/fmchc_python1300c_auto_pc_3.dcp' for cell 'fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xbar_0/fmchc_python1300c_xbar_0.dcp' for cell 'fmchc_python1300c_i/axi_mem_intercon/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_auto_pc_0/fmchc_python1300c_auto_pc_0.dcp' for cell 'fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xbar_1/fmchc_python1300c_xbar_1.dcp' for cell 'fmchc_python1300c_i/processing_system7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_auto_pc_1/fmchc_python1300c_auto_pc_1.dcp' for cell 'fmchc_python1300c_i/processing_system7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 1613 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7z030sbg485-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_processing_system7_0_0/fmchc_python1300c_processing_system7_0_0.xdc] for cell 'fmchc_python1300c_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.389970 which will be rounded to 0.390 to ensure it is an integer multiple of 1 picosecond [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_processing_system7_0_0/fmchc_python1300c_processing_system7_0_0.xdc:21]
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_processing_system7_0_0/fmchc_python1300c_processing_system7_0_0.xdc] for cell 'fmchc_python1300c_i/processing_system7_0/inst'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_0_0/fmchc_python1300c_axi_vdma_0_0.xdc] for cell 'fmchc_python1300c_i/axi_vdma_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_0_0/fmchc_python1300c_axi_vdma_0_0.xdc] for cell 'fmchc_python1300c_i/axi_vdma_0/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_1_0/fmchc_python1300c_axi_vdma_1_0.xdc] for cell 'fmchc_python1300c_i/axi_vdma_1/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_1_0/fmchc_python1300c_axi_vdma_1_0.xdc] for cell 'fmchc_python1300c_i/axi_vdma_1/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0_board.xdc] for cell 'fmchc_python1300c_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0_board.xdc] for cell 'fmchc_python1300c_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0.xdc] for cell 'fmchc_python1300c_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1253.168 ; gain = 540.398
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.067340 which will be rounded to 0.067 to ensure it is an integer multiple of 1 picosecond [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0.xdc:57]
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0.xdc] for cell 'fmchc_python1300c_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_fmc_hdmi_cam_iic_0_0/fmchc_python1300c_fmc_hdmi_cam_iic_0_0_board.xdc] for cell 'fmchc_python1300c_i/fmc_hdmi_cam_iic_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_fmc_hdmi_cam_iic_0_0/fmchc_python1300c_fmc_hdmi_cam_iic_0_0_board.xdc] for cell 'fmchc_python1300c_i/fmc_hdmi_cam_iic_0/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_148_5M_0/fmchc_python1300c_rst_processing_system7_0_148_5M_0_board.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_148_5M/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_148_5M_0/fmchc_python1300c_rst_processing_system7_0_148_5M_0_board.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_148_5M/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_148_5M_0/fmchc_python1300c_rst_processing_system7_0_148_5M_0.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_148_5M/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_148_5M_0/fmchc_python1300c_rst_processing_system7_0_148_5M_0.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_148_5M/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_149M_0/fmchc_python1300c_rst_processing_system7_0_149M_0_board.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_149M/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_149M_0/fmchc_python1300c_rst_processing_system7_0_149M_0_board.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_149M/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_149M_0/fmchc_python1300c_rst_processing_system7_0_149M_0.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_149M/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_149M_0/fmchc_python1300c_rst_processing_system7_0_149M_0.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_149M/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_76M_0/fmchc_python1300c_rst_processing_system7_0_76M_0_board.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_76M/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_76M_0/fmchc_python1300c_rst_processing_system7_0_76M_0_board.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_76M/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_76M_0/fmchc_python1300c_rst_processing_system7_0_76M_0.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_76M/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_76M_0/fmchc_python1300c_rst_processing_system7_0_76M_0.xdc] for cell 'fmchc_python1300c_i/rst_processing_system7_0_76M/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_proc_sys_reset_0_0/fmchc_python1300c_proc_sys_reset_0_0_board.xdc] for cell 'fmchc_python1300c_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_proc_sys_reset_0_0/fmchc_python1300c_proc_sys_reset_0_0_board.xdc] for cell 'fmchc_python1300c_i/proc_sys_reset_0/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_proc_sys_reset_0_0/fmchc_python1300c_proc_sys_reset_0_0.xdc] for cell 'fmchc_python1300c_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_proc_sys_reset_0_0/fmchc_python1300c_proc_sys_reset_0_0.xdc] for cell 'fmchc_python1300c_i/proc_sys_reset_0/U0'
+Parsing XDC File [C:/Avnet/hdl/Projects/fmchc_python1300c/pz7030_fmc2_fmchc_python1300c.xdc]
+CRITICAL WARNING: [Constraints 18-1055] Clock 'video_clk' completely overrides clock 'fmc_hdmi_cam_vclk', which is referenced by one or more other constraints. Any constraints that refer to the overridden clock will be ignored.
+New: create_clock -period 6.730 -name video_clk [get_ports fmc_hdmi_cam_vclk], [C:/Avnet/hdl/Projects/fmchc_python1300c/pz7030_fmc2_fmchc_python1300c.xdc:132]
+Previous: create_clock -period 6.734 [get_ports fmc_hdmi_cam_vclk], [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0.xdc:56]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+INFO: [Timing 38-2] Deriving generated clocks [C:/Avnet/hdl/Projects/fmchc_python1300c/pz7030_fmc2_fmchc_python1300c.xdc:140]
+WARNING: [Vivado 12-584] No ports matched 'fmc_hdmii_data[*]'. [C:/Avnet/hdl/Projects/fmchc_python1300c/pz7030_fmc2_fmchc_python1300c.xdc:149]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports {fmc_hdmii_data[*]}]'. [C:/Avnet/hdl/Projects/fmchc_python1300c/pz7030_fmc2_fmchc_python1300c.xdc:149]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'fmc_hdmii_data[*]'. [C:/Avnet/hdl/Projects/fmchc_python1300c/pz7030_fmc2_fmchc_python1300c.xdc:150]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports {fmc_hdmii_data[*]}]'. [C:/Avnet/hdl/Projects/fmchc_python1300c/pz7030_fmc2_fmchc_python1300c.xdc:150]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Avnet/hdl/Projects/fmchc_python1300c/pz7030_fmc2_fmchc_python1300c.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_processing_system7_0_0/fmchc_python1300c_processing_system7_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cfa_0_0/fmchc_python1300c_v_cfa_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cresample_0_0/fmchc_python1300c_v_cresample_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_osd_0_0/fmchc_python1300c_v_osd_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_rgb2ycrcb_0_0/fmchc_python1300c_v_rgb2ycrcb_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_tc_0_0/fmchc_python1300c_v_tc_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xbar_0/fmchc_python1300c_xbar_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_0_0/fmchc_python1300c_axi_vdma_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_1_0/fmchc_python1300c_axi_vdma_1_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_clk_wiz_0_0/fmchc_python1300c_clk_wiz_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_fmc_hdmi_cam_iic_0_0/fmchc_python1300c_fmc_hdmi_cam_iic_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_onsemi_python_cam_0_0/fmchc_python1300c_onsemi_python_cam_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_onsemi_python_spi_0_0/fmchc_python1300c_onsemi_python_spi_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xbar_1/fmchc_python1300c_xbar_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_148_5M_0/fmchc_python1300c_rst_processing_system7_0_148_5M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_149M_0/fmchc_python1300c_rst_processing_system7_0_149M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_rst_processing_system7_0_76M_0/fmchc_python1300c_rst_processing_system7_0_76M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_axi4s_vid_out_0_0/fmchc_python1300c_v_axi4s_vid_out_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_0_0/fmchc_python1300c_v_vid_in_axi4s_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_1_0/fmchc_python1300c_v_vid_in_axi4s_1_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_square_check_0_0/fmchc_python1300c_square_check_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xbar_2/fmchc_python1300c_xbar_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_xbar_3/fmchc_python1300c_xbar_3.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_proc_sys_reset_0_0/fmchc_python1300c_proc_sys_reset_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_auto_pc_0/fmchc_python1300c_auto_pc_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_auto_pc_1/fmchc_python1300c_auto_pc_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_auto_pc_2/fmchc_python1300c_auto_pc_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_auto_pc_3/fmchc_python1300c_auto_pc_3.dcp'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cfa_0_0/fmchc_python1300c_v_cfa_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_cfa_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cfa_0_0/fmchc_python1300c_v_cfa_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_cfa_0/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cresample_0_0/fmchc_python1300c_v_cresample_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_cresample_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cresample_0_0/fmchc_python1300c_v_cresample_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_cresample_0/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_osd_0_0/fmchc_python1300c_v_osd_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_osd_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_osd_0_0/fmchc_python1300c_v_osd_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_osd_0/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_rgb2ycrcb_0_0/fmchc_python1300c_v_rgb2ycrcb_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_rgb2ycrcb_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_rgb2ycrcb_0_0/fmchc_python1300c_v_rgb2ycrcb_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_rgb2ycrcb_0/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_tc_0_0/fmchc_python1300c_v_tc_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_tc_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_tc_0_0/fmchc_python1300c_v_tc_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_tc_0/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_0_0/fmchc_python1300c_axi_vdma_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/axi_vdma_0/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_0_0/fmchc_python1300c_axi_vdma_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/axi_vdma_0/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_1_0/fmchc_python1300c_axi_vdma_1_0_clocks.xdc] for cell 'fmchc_python1300c_i/axi_vdma_1/U0'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_axi_vdma_1_0/fmchc_python1300c_axi_vdma_1_0_clocks.xdc] for cell 'fmchc_python1300c_i/axi_vdma_1/U0'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_axi4s_vid_out_0_0/fmchc_python1300c_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_axi4s_vid_out_0/inst'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_axi4s_vid_out_0_0/fmchc_python1300c_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_axi4s_vid_out_0/inst'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_0_0/fmchc_python1300c_v_vid_in_axi4s_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_vid_in_axi4s_0/inst'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_0_0/fmchc_python1300c_v_vid_in_axi4s_0_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_vid_in_axi4s_0/inst'
+Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_1_0/fmchc_python1300c_v_vid_in_axi4s_1_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_vid_in_axi4s_1/inst'
+Finished Parsing XDC File [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_1_0/fmchc_python1300c_v_vid_in_axi4s_1_0_clocks.xdc] for cell 'fmchc_python1300c_i/v_vid_in_axi4s_1/inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same.  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:17]
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_txfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_spi_0/U0/onsemi_vita_spi_v3_1_S00_AXI_inst/onsemi_vita_spicore_inst/vita_spi_rxfifo_l/afifo_64i_16o_l/xpm_fifo_base_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/framestart2_regen_l/pulse_regen_l/xpm_fifo_base_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 62 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 56 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 2 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 1 instances
+
+link_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 1254.973 ; gain = 1001.637
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1254.973 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 11a3b9a1a
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 8 inverter(s) to 23 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 13cc1cd31
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1254.973 ; gain = 0.000
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 20 load pin(s).
+INFO: [Opt 31-10] Eliminated 3538 cells.
+Phase 2 Constant propagation | Checksum: 15ba454ca
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1254.973 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 9785 unconnected nets.
+INFO: [Opt 31-11] Eliminated 3911 unconnected cells.
+Phase 3 Sweep | Checksum: e7e0ff08
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1254.973 ; gain = 0.000
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 12c862e56
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1254.973 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.151 . Memory (MB): peak = 1254.973 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 12c862e56
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1254.973 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 43 BRAM(s) out of a total of 61 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 24 WE to EN ports
+Number of BRAM Ports augmented: 22 newly gated: 27 Total Ports: 122
+Ending PowerOpt Patch Enables Task | Checksum: 148e0b787
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.272 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 148e0b787
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 1769.277 ; gain = 514.305
+INFO: [Common 17-83] Releasing license: Implementation
+90 Infos, 20 Warnings, 3 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:39 . Memory (MB): peak = 1769.277 ; gain = 514.305
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.168 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.runs/impl_1/fmchc_python1300c_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.runs/impl_1/fmchc_python1300c_wrapper_drc_opted.rpt.
+report_drc: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (CHECK-3) Report rule limit reached - REQP-1839 rule limit reached: 20 violations have been found.
+WARNING: [DRC 23-20] Rule violation (CHECK-3) Report rule limit reached - REQP-1840 rule limit reached: 20 violations have been found.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ENBWREN (net: fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/sig_cmd_stat_rst_user_reg_n_cdc_from_reg__0) which is driven by a register (fmchc_python1300c_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_ASYNC_FIFO.LB_BUILT_IN.I_LINEBUFFER_FIFO/fg_builtin_fifo_inst/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/rsync.ric.rd_rst_reg_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ENBWREN (net: fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/sig_cmd_stat_rst_user_reg_n_cdc_from_reg__0) which is driven by a register (fmchc_python1300c_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_ASYNC_FIFO.LB_BUILT_IN.I_LINEBUFFER_FIFO/fg_builtin_fifo_inst/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/rsync.ric.rd_rst_reg_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ENBWREN (net: fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/sig_cmd_stat_rst_user_reg_n_cdc_from_reg__0) which is driven by a register (fmchc_python1300c_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_ASYNC_FIFO.LB_BUILT_IN.I_LINEBUFFER_FIFO/fg_builtin_fifo_inst/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/rsync.ric.rd_rst_reg_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ENBWREN (net: fmchc_python1300c_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/sig_cmd_stat_rst_user_reg_n_cdc_from_reg__0) which is driven by a register (fmchc_python1300c_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_ASYNC_FIFO.LB_BUILT_IN.I_LINEBUFFER_FIFO/fg_builtin_fifo_inst/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/rsync.ric.rd_rst_reg_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ENBWREN (net: fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/sig_cmd_stat_rst_user_reg_n_cdc_from_reg__0) which is driven by a register (fmchc_python1300c_i/axi_vdma_1/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_ASYNC_FIFO.LB_BUILT_IN.I_LINEBUFFER_FIFO/fg_builtin_fifo_inst/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/rsync.ric.rd_rst_reg_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ENBWREN (net: fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/sig_cmd_stat_rst_user_reg_n_cdc_from_reg__0) which is driven by a register (fmchc_python1300c_i/axi_vdma_1/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_ASYNC_FIFO.LB_BUILT_IN.I_LINEBUFFER_FIFO/fg_builtin_fifo_inst/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/rsync.ric.rd_rst_reg_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ENBWREN (net: fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/sig_cmd_stat_rst_user_reg_n_cdc_from_reg__0) which is driven by a register (fmchc_python1300c_i/axi_vdma_1/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_ASYNC_FIFO.LB_BUILT_IN.I_LINEBUFFER_FIFO/fg_builtin_fifo_inst/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/rsync.ric.rd_rst_reg_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has an input control pin fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram/ENBWREN (net: fmchc_python1300c_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgb.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/sig_cmd_stat_rst_user_reg_n_cdc_from_reg__0) which is driven by a register (fmchc_python1300c_i/axi_vdma_1/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_ASYNC_FIFO.LB_BUILT_IN.I_LINEBUFFER_FIFO/fg_builtin_fifo_inst/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/rsync.ric.rd_rst_reg_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_1 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_1/ENARDEN (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/ena) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/vita_remapper/VIDEO_SYNC_OUT_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_1 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_1/ENBWREN (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/enb) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/syncgen_l/De_s_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_1 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_1/WEA[0] (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/wea[0]) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/vita_remapper/VIDEO_SYNC_OUT_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_2 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_2/ENARDEN (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/ena) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/vita_remapper/VIDEO_SYNC_OUT_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_2 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_2/ENBWREN (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/enb) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/syncgen_l/De_s_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_2 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_2/WEA[0] (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/wea[0]) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/vita_remapper/VIDEO_SYNC_OUT_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_3 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_3/ENARDEN (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/ena) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/vita_remapper/VIDEO_SYNC_OUT_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_3 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_3/ENBWREN (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/enb) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/syncgen_l/De_s_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_3 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_3/WEA[0] (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/wea[0]) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/vita_remapper/VIDEO_SYNC_OUT_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_4 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_4/ENARDEN (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/ena) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/vita_remapper/VIDEO_SYNC_OUT_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_4 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_4/ENBWREN (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/enb) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/syncgen_l/De_s_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_4 has an input control pin fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_wide.mem_reg_4/WEA[0] (net: fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/DEMUX_GEN.demux_fifo_l/afifo_64i_16o_l/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/wea[0]) which is driven by a register (fmchc_python1300c_i/onsemi_python_cam_0/U0/onsemi_vita_cam_v3_1_S00_AXI_inst/onsemi_vita_cam_core_inst/vita_remapper/VIDEO_SYNC_OUT_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[11] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_2_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg has an input control pin fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg/ADDRARDADDR[12] (net: fmchc_python1300c_i/square_check_0/U0/square_check_AXI_Lite_RGB_1_N_m_axi_U/bus_write/buff_wdata/mem_reg_i_1_n_2) which is driven by a register (fmchc_python1300c_i/axi_mem_intercon/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 42 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.173 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: e501e737
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: 1194bc368
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 1194bc368
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1194bc368
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 192dbe332
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:01 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 192dbe332
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:02 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 12533c167
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:10 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 16e4d44c2
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:11 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 200ca6eb4
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:11 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1b3dd8f33
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:13 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 10dd2a4d6
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:13 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 1becc32a4
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:25 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 147fd9ecb
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:27 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 16defb3ef
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:27 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 16defb3ef
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:28 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.606. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: b7719624
+
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:40 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: b7719624
+
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:41 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: b7719624
+
+Time (s): cpu = 00:02:18 ; elapsed = 00:01:41 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: b7719624
+
+Time (s): cpu = 00:02:18 ; elapsed = 00:01:42 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 1617009a3
+
+Time (s): cpu = 00:02:19 ; elapsed = 00:01:42 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1617009a3
+
+Time (s): cpu = 00:02:19 ; elapsed = 00:01:42 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Ending Placer Task | Checksum: 1128b467e
+
+Time (s): cpu = 00:02:19 ; elapsed = 00:01:42 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+108 Infos, 62 Warnings, 3 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:28 ; elapsed = 00:01:48 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.runs/impl_1/fmchc_python1300c_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 1769.277 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1769.277 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.435 . Memory (MB): peak = 1769.277 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.174 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 41669189 ConstDB: 0 ShapeSum: d124b4f5 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 1c2bcd43
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:37 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 1c2bcd43
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:38 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 1c2bcd43
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:38 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 1c2bcd43
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:38 . Memory (MB): peak = 1769.277 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1a8934d9a
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:52 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.791  | TNS=0.000  | WHS=-0.358 | THS=-798.696|
+
+Phase 2 Router Initialization | Checksum: 2108f0c5d
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:59 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1344aad10
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:01:04 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2472
+ Number of Nodes with overlaps = 144
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1142fffc2
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:15 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.441  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 174a1ca4f
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:15 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 11336db1a
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:17 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.429  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 11336db1a
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:17 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 11336db1a
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:17 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 11336db1a
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:17 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 11336db1a
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:17 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 11336db1a
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:01:17 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1a74ebcef
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:20 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.511  | TNS=0.000  | WHS=0.033  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 10684b7ff
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:20 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 10684b7ff
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:20 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 4.27476 %
+  Global Horizontal Routing Utilization  = 5.37586 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 11a670c39
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:21 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 11a670c39
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:21 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 46b37bc7
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:23 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.511  | TNS=0.000  | WHS=0.033  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 46b37bc7
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:24 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:02:06 ; elapsed = 00:01:26 . Memory (MB): peak = 1769.277 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+122 Infos, 62 Warnings, 3 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:15 ; elapsed = 00:01:31 . Memory (MB): peak = 1769.277 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.runs/impl_1/fmchc_python1300c_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.runs/impl_1/fmchc_python1300c_wrapper_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 1769.277 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.runs/impl_1/fmchc_python1300c_wrapper_methodology_drc_routed.rpt.
+report_methodology: Time (s): cpu = 00:00:27 ; elapsed = 00:00:16 . Memory (MB): peak = 1831.645 ; gain = 62.367
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+report_timing_summary: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1850.285 ; gain = 18.641
+Command: report_power -file fmchc_python1300c_wrapper_power_routed.rpt -pb fmchc_python1300c_wrapper_power_summary_routed.pb -rpx fmchc_python1300c_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+132 Infos, 63 Warnings, 3 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1913.805 ; gain = 63.520
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 26 15:42:26 2018...

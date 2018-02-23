@@ -1,0 +1,53 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Fri Jan 26 12:24:47 2018
+| Host         : ESIT044 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_ip_status
+------------------------------------------------------------------------------------
+
+IP Status Summary
+
+1. Project IP Status
+--------------------
+Your project uses 6 IP. Some of these IP may have undergone changes in this release of the software. Please review the recommended actions.
+
+More information on the Xilinx versioning policy is available at www.xilinx.com.
+
+Project IP Instances
++------------------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| Instance Name                            | Status     | Recommendation      | Change    | IP Name            | IP      | New Version   | New        | Original Part        |
+|                                          |            |                     | Log       |                    | Version |               | License    |                      |
++------------------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| fmchc_python1300c_processing_system7_0_0 | Up-to-date | No changes required |  *(1)     | ZYNQ7 Processing   | 5.5     | 5.5 (Rev. 3)  | Included   | xc7z030sbg485-1      |
+|                                          |            |                     |           | System             | (Rev.   |               |            |                      |
+|                                          |            |                     |           |                    | 3)      |               |            |                      |
++------------------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| fmchc_python1300c_v_cfa_0_0              | Up-to-date | No changes required |  *(2)     | Color Filter Array | 7.0     | 7.0 (Rev. 11) | Hardware_E | xc7z030sbg485-1      |
+|                                          |            |                     |           | Interpolation      | (Rev.   |               |            |                      |
+|                                          |            |                     |           |                    | 11)     |               |            |                      |
++------------------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| fmchc_python1300c_v_cresample_0_0        | Up-to-date | No changes required |  *(3)     | Chroma Resampler   | 4.0     | 4.0 (Rev. 11) | Purchased  | xc7z030sbg485-1      |
+|                                          |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                          |            |                     |           |                    | 11)     |               |            |                      |
++------------------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| fmchc_python1300c_v_osd_0_0              | Up-to-date | No changes required |  *(4)     | Video On Screen    | 6.0     | 6.0 (Rev. 13) | Purchased  | xc7z030sbg485-1      |
+|                                          |            |                     |           | Display            | (Rev.   |               |            |                      |
+|                                          |            |                     |           |                    | 13)     |               |            |                      |
++------------------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| fmchc_python1300c_v_rgb2ycrcb_0_0        | Up-to-date | No changes required |  *(5)     | RGB to YCrCb       | 7.1     | 7.1 (Rev. 10) | Included   | xc7z030sbg485-1      |
+|                                          |            |                     |           | Color-Space        | (Rev.   |               |            |                      |
+|                                          |            |                     |           | Converter          | 10)     |               |            |                      |
++------------------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| fmchc_python1300c_v_tc_0_0               | Up-to-date | No changes required |  *(6)     | Video Timing       | 6.1     | 6.1 (Rev. 10) | Included   | xc7z030sbg485-1      |
+|                                          |            |                     |           | Controller         | (Rev.   |               |            |                      |
+|                                          |            |                     |           |                    | 10)     |               |            |                      |
++------------------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+*(1) c:/Xilinx/Vivado/2016.4/data/ip/xilinx/processing_system7_v5_5/doc/processing_system7_v5_5_changelog.txt
+*(2) c:/Xilinx/Vivado/2016.4/data/ip/xilinx/v_cfa_v7_0/doc/v_cfa_v7_0_changelog.txt
+*(3) c:/Xilinx/Vivado/2016.4/data/ip/xilinx/v_cresample_v4_0/doc/v_cresample_v4_0_changelog.txt
+*(4) c:/Xilinx/Vivado/2016.4/data/ip/xilinx/v_osd_v6_0/doc/v_osd_v6_0_changelog.txt
+*(5) c:/Xilinx/Vivado/2016.4/data/ip/xilinx/v_rgb2ycrcb_v7_1/doc/v_rgb2ycrcb_v7_1_changelog.txt
+*(6) c:/Xilinx/Vivado/2016.4/data/ip/xilinx/v_tc_v6_1/doc/v_tc_v6_1_changelog.txt
+
+

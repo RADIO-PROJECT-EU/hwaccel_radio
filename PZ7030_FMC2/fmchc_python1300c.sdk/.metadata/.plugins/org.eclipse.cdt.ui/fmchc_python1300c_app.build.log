@@ -1,0 +1,8 @@
+19:11:00 **** Incremental Build of configuration Debug for project fmchc_python1300c_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Für das Ziel »main-build« ist nichts zu tun.
+
+19:11:00 Build Finished (took 223ms)
+
