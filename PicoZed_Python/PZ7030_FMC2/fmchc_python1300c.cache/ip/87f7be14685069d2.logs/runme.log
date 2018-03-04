@@ -1,0 +1,64 @@
+
+*** Running vivado
+    with args -log fmchc_python1300c_v_axi4s_vid_out_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fmchc_python1300c_v_axi4s_vid_out_0_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+ERROR: [Common 17-354] Could not open 'C' for writing.
+ERROR: [Common 17-356] Failed to install all user apps.
+source fmchc_python1300c_v_axi4s_vid_out_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:43 . Memory (MB): peak = 353.453 ; gain = 142.457
+INFO: [Synth 8-638] synthesizing module 'fmchc_python1300c_v_axi4s_vid_out_0_0' [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_axi4s_vid_out_0_0/synth/fmchc_python1300c_v_axi4s_vid_out_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'v_axi4s_vid_out_v4_0_5' [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/1923/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:76]
+INFO: [Synth 8-638] synthesizing module 'v_axi4s_vid_out_v4_0_5_coupler' [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/1923/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:311]
+INFO: [Synth 8-256] done synthesizing module 'v_axi4s_vid_out_v4_0_5_coupler' (31#1) [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/1923/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:311]
+INFO: [Synth 8-638] synthesizing module 'v_axi4s_vid_out_v4_0_5_sync' [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/1923/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:822]
+INFO: [Synth 8-256] done synthesizing module 'v_axi4s_vid_out_v4_0_5_sync' (32#1) [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/1923/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:822]
+INFO: [Synth 8-638] synthesizing module 'v_axi4s_vid_out_v4_0_5_formatter' [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/1923/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:1453]
+INFO: [Synth 8-256] done synthesizing module 'v_axi4s_vid_out_v4_0_5_formatter' (33#1) [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/1923/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:1453]
+INFO: [Synth 8-256] done synthesizing module 'v_axi4s_vid_out_v4_0_5' (34#1) [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/1923/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v:76]
+INFO: [Synth 8-256] done synthesizing module 'fmchc_python1300c_v_axi4s_vid_out_0_0' (35#1) [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_axi4s_vid_out_0_0/synth/fmchc_python1300c_v_axi4s_vid_out_0_0.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:01:18 ; elapsed = 00:01:48 . Memory (MB): peak = 565.434 ; gain = 354.438
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:18 ; elapsed = 00:01:48 . Memory (MB): peak = 565.434 ; gain = 354.438
+INFO: [Device 21-403] Loading part xc7z030sbg485-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 699.930 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:34 ; elapsed = 00:02:07 . Memory (MB): peak = 699.930 ; gain = 488.934
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:34 ; elapsed = 00:02:07 . Memory (MB): peak = 699.930 ; gain = 488.934
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:34 ; elapsed = 00:02:07 . Memory (MB): peak = 699.930 ; gain = 488.934
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:35 ; elapsed = 00:02:09 . Memory (MB): peak = 699.930 ; gain = 488.934
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:37 ; elapsed = 00:02:11 . Memory (MB): peak = 699.930 ; gain = 488.934
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:54 ; elapsed = 00:02:28 . Memory (MB): peak = 699.930 ; gain = 488.934
+Finished Timing Optimization : Time (s): cpu = 00:01:54 ; elapsed = 00:02:29 . Memory (MB): peak = 699.930 ; gain = 488.934
+Finished Technology Mapping : Time (s): cpu = 00:01:54 ; elapsed = 00:02:29 . Memory (MB): peak = 712.164 ; gain = 501.168
+Finished IO Insertion : Time (s): cpu = 00:01:55 ; elapsed = 00:02:30 . Memory (MB): peak = 712.164 ; gain = 501.168
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:55 ; elapsed = 00:02:30 . Memory (MB): peak = 712.164 ; gain = 501.168
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:55 ; elapsed = 00:02:30 . Memory (MB): peak = 712.164 ; gain = 501.168
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:55 ; elapsed = 00:02:30 . Memory (MB): peak = 712.164 ; gain = 501.168
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:55 ; elapsed = 00:02:30 . Memory (MB): peak = 712.164 ; gain = 501.168
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:55 ; elapsed = 00:02:30 . Memory (MB): peak = 712.164 ; gain = 501.168
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    23|
+|2     |LUT1     |    62|
+|3     |LUT2     |    61|
+|4     |LUT3     |    22|
+|5     |LUT4     |    63|
+|6     |LUT5     |    37|
+|7     |LUT6     |    58|
+|8     |MUXCY    |    20|
+|9     |RAMB36E1 |     1|
+|10    |FDCE     |   139|
+|11    |FDPE     |    27|
+|12    |FDRE     |   172|
+|13    |FDSE     |     2|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:55 ; elapsed = 00:02:30 . Memory (MB): peak = 712.164 ; gain = 501.168
+get_clocks: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1148.328 ; gain = 421.805
+synth_design: Time (s): cpu = 00:01:56 ; elapsed = 00:02:08 . Memory (MB): peak = 1148.328 ; gain = 877.934

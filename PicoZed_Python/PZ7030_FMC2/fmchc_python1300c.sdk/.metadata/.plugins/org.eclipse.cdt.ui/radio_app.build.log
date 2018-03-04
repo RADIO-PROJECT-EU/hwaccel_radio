@@ -1,0 +1,48 @@
+19:10:59 **** Incremental Build of configuration Debug for project radio_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../radio_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/radio.h:17:0,
+                 from ../src/main.c:8:
+../../radio_bsp_0/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../radio_bsp_0/ps7_cortexa9_0/include/fmc_iic.h:57:0,
+                 from ../src/radio.h:17,
+                 from ../src/main.c:8:
+../../radio_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../radio_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/radio.h:18:0,
+                 from ../src/main.c:8:
+../../radio_bsp_0/ps7_cortexa9_0/include/fmc_hdmi_cam.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../radio_bsp_0/ps7_cortexa9_0/include/fmc_hdmi_cam.h:57:0,
+                 from ../src/radio.h:18,
+                 from ../src/main.c:8:
+../../radio_bsp_0/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: radio_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../radio_bsp_0/ps7_cortexa9_0/lib -o "radio_app.elf"  ./src/cat9554.o ./src/edid_fmc_hdmi_cam.o ./src/main.o ./src/radio.o ./src/sleep.o ./src/xaxivdma_ext.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: radio_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size radio_app.elf  |tee "radio_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 129452	   5492	  29344	 164288	  281c0	radio_app.elf
+'Finished building: radio_app.elf.size'
+' '
+
+19:11:00 Build Finished (took 888ms)
+

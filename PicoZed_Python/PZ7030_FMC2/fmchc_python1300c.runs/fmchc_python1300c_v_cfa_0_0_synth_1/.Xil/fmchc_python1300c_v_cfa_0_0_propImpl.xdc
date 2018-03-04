@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cfa_0_0/fmchc_python1300c_v_cfa_0_0_clocks.xdc rfile:../../../fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_cfa_0_0/fmchc_python1300c_v_cfa_0_0_clocks.xdc id:1 order:LATE scoped_inst:U0} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_max_delay -from [get_clocks -of_objects [get_ports aclk]] -to [get_cells -hierarchical -filter {NAME =~ *video_cntrl*/*SYNC2PROCCLK_I*/data_sync_reg[0]*}] -datapath_only [get_property -min PERIOD [get_clocks -of_objects [get_ports aclk]]]
+set_property src_info {type:SCOPED_XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_max_delay -from [get_clocks -of_objects [get_ports s_axi_aclk]] -to [get_cells -hierarchical -filter {NAME =~ *video_cntrl*/*SYNC2VIDCLK_I*/data_sync_reg[0]*}] -datapath_only [get_property -min PERIOD [get_clocks -of_objects [get_ports s_axi_aclk]]]

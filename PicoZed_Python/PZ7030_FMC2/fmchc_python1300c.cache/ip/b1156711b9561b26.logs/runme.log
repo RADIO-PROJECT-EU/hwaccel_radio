@@ -1,0 +1,60 @@
+
+*** Running vivado
+    with args -log fmchc_python1300c_v_vid_in_axi4s_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fmchc_python1300c_v_vid_in_axi4s_1_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+ERROR: [Common 17-354] Could not open 'C' for writing.
+ERROR: [Common 17-356] Failed to install all user apps.
+source fmchc_python1300c_v_vid_in_axi4s_1_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:43 . Memory (MB): peak = 351.965 ; gain = 141.402
+INFO: [Synth 8-638] synthesizing module 'fmchc_python1300c_v_vid_in_axi4s_1_0' [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_1_0/synth/fmchc_python1300c_v_vid_in_axi4s_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'v_vid_in_axi4s_v4_0_5' [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:782]
+INFO: [Synth 8-638] synthesizing module 'v_vid_in_axi4s_v4_0_5_formatter' [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:570]
+INFO: [Synth 8-256] done synthesizing module 'v_vid_in_axi4s_v4_0_5_formatter' (1#1) [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:570]
+INFO: [Synth 8-638] synthesizing module 'v_vid_in_axi4s_v4_0_5_coupler' [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'v_vid_in_axi4s_v4_0_5_coupler' (32#1) [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'v_vid_in_axi4s_v4_0_5' (33#1) [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ipshared/3c71/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v:782]
+INFO: [Synth 8-256] done synthesizing module 'fmchc_python1300c_v_vid_in_axi4s_1_0' (34#1) [c:/Avnet/hdl/Projects/fmchc_python1300c/PZ7030_FMC2/fmchc_python1300c.srcs/sources_1/bd/fmchc_python1300c/ip/fmchc_python1300c_v_vid_in_axi4s_1_0/synth/fmchc_python1300c_v_vid_in_axi4s_1_0.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:01:17 ; elapsed = 00:01:48 . Memory (MB): peak = 564.418 ; gain = 353.855
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:17 ; elapsed = 00:01:48 . Memory (MB): peak = 564.418 ; gain = 353.855
+INFO: [Device 21-403] Loading part xc7z030sbg485-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 684.434 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:33 ; elapsed = 00:02:07 . Memory (MB): peak = 684.434 ; gain = 473.871
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:33 ; elapsed = 00:02:07 . Memory (MB): peak = 684.434 ; gain = 473.871
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:33 ; elapsed = 00:02:07 . Memory (MB): peak = 684.434 ; gain = 473.871
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:34 ; elapsed = 00:02:08 . Memory (MB): peak = 684.434 ; gain = 473.871
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:35 ; elapsed = 00:02:10 . Memory (MB): peak = 684.434 ; gain = 473.871
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:51 ; elapsed = 00:02:26 . Memory (MB): peak = 685.480 ; gain = 474.918
+Finished Timing Optimization : Time (s): cpu = 00:01:51 ; elapsed = 00:02:26 . Memory (MB): peak = 686.492 ; gain = 475.930
+Finished Technology Mapping : Time (s): cpu = 00:01:51 ; elapsed = 00:02:26 . Memory (MB): peak = 705.914 ; gain = 495.352
+Finished IO Insertion : Time (s): cpu = 00:01:52 ; elapsed = 00:02:27 . Memory (MB): peak = 705.914 ; gain = 495.352
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:52 ; elapsed = 00:02:27 . Memory (MB): peak = 705.914 ; gain = 495.352
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:02:27 . Memory (MB): peak = 705.914 ; gain = 495.352
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:02:27 . Memory (MB): peak = 705.914 ; gain = 495.352
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:52 ; elapsed = 00:02:27 . Memory (MB): peak = 705.914 ; gain = 495.352
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:52 ; elapsed = 00:02:27 . Memory (MB): peak = 705.914 ; gain = 495.352
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |     2|
+|2     |LUT2     |    35|
+|3     |LUT3     |    11|
+|4     |LUT4     |    34|
+|5     |LUT5     |    14|
+|6     |LUT6     |    13|
+|7     |MUXCY    |    20|
+|8     |RAMB36E1 |     1|
+|9     |FDCE     |   130|
+|10    |FDPE     |    27|
+|11    |FDRE     |    70|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:52 ; elapsed = 00:02:27 . Memory (MB): peak = 705.914 ; gain = 495.352
+get_clocks: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1125.004 ; gain = 403.438
+synth_design: Time (s): cpu = 00:01:53 ; elapsed = 00:02:05 . Memory (MB): peak = 1125.004 ; gain = 855.246
