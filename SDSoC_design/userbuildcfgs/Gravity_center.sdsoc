@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdsproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sdsproject="http://www.xilinx.com/sdsproject" name="Gravity_center" platform="F:\picozed_hdmi_in" os="Standalone" >
+  <options insertapm="false" genbitstream="true" gensdcard="true" dmclkid="2" enableHwSwTrace="false" traceApplication="true">
+    <accelerator name="Gravity_center" filepath="src/gravity_center.cpp" clkid="2"/>
+  </options>
+</sdsproject:Project>
