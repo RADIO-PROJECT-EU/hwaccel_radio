@@ -13,7 +13,7 @@
 // Dependencies:
 //
 // Revision:
-//    1.1
+//    1.2
 ////////////////////////////////////////////////////////////////////////////////
 
 `include "AVNT_MEMORIES.v"
@@ -35,7 +35,14 @@ module AVNT_IPR1_TRIGMOT (
 
 	triggerout,
 	o_frame_valid,
-	o_data_valid
+	o_data_valid,
+	
+	cogx_o,
+	cogy_o,
+	left_o,
+	right_o,
+	top_o,
+	bottom_o
 	
 );
 
@@ -68,6 +75,17 @@ module AVNT_IPR1_TRIGMOT (
 	reg                     o_frame_valid;
 	reg					    o_data_valid;
 	
+	
+	reg [7:0]	cogx_o;
+	reg [7:0]	cogy_o;
+	reg [7:0]	left_o;
+	reg [7:0]	right_o;
+	reg [7:0]	top_o;
+	reg [7:0]	bottom_o;
+	
+	
+	
+	
 `endif
 
 `define TRIGMON_REGSANDSIGNALS
@@ -88,6 +106,10 @@ module AVNT_IPR1_TRIGMOT (
 	
 	reg  [10:0]   blockaverage;  
 	reg  [10:0]   blockprev;  
+	
+	reg [20:0]    cogx, cogy;
+	reg [7:0]     minx,maxx,miny,maxy;
+	
 	
 	reg           active;
 	
@@ -189,10 +211,31 @@ always @(posedge clk or negedge reset_n) begin
 		triggerout = 0;
 		totalchanges = 0;
 		active = 0;
+		cogx = 0;
+		cogy = 0;
+	    minx = 63;
+		maxx = 0;
+		miny = 63;
+		maxy = 0;
 	end 
 	else begin
 		// make sure we reset counters and switch active memory at start of each frame
 		if ((x==0)&&(y==0)) begin
+		
+			cogx_o   <= cogx>>12;
+			cogy_o   <= cogy>>12;
+			left_o   <= minx;
+			right_o  <= maxx;
+			top_o    <= miny;
+			bottom_o <= maxy;
+		
+			cogx = 0;
+			cogy = 0;
+			minx = 63;
+			maxx = 0;
+			miny = 63;
+			maxy = 0;
+			
 			totalchanges <= 0;
 			active <= ~active;
 		end
@@ -211,6 +254,14 @@ always @(posedge clk or negedge reset_n) begin
 			if (y%8 == 0 ) begin
 				// Compare with previous block and count changes:
 				if (abs(diff)>sensitivity) begin
+				    
+					cogx = cogx + (x>>3);
+					cogy = cogy + (y>>3);
+					if ((x>>3)<minx) minx = x>>3;
+					if ((x>>3)>maxx) maxx = x>>3;
+					if ((y>>3)<miny) miny = y>>3;
+					if ((y>>3)>maxy) maxy = y>>3;
+					
 					totalchanges <= totalchanges + 1;
 					if (totalchanges > threshold) begin
 						triggerout <= 1;
