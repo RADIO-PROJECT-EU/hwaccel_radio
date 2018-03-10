@@ -18,6 +18,15 @@
 
 `include "AVNT_MEMORIES.v"
 
+`define CHECK_ONLY_ROI
+
+// ROI definition fixed to centre of image. 
+// Could alternatively be given as input to the block if app needs to define dynamically. 
+`define ROIX1 16
+`define ROIX2 48
+`define ROIY1 16
+`define ROIY2 48
+
 module AVNT_IPR1_TRIGMOT (
 
     clk,
@@ -228,7 +237,23 @@ always @(posedge clk or negedge reset_n) begin
 			right_o  <= maxx;
 			top_o    <= miny;
 			bottom_o <= maxy;
-		
+				
+			// Maintain trigger out for an entire frame to allow polling SW if no IRQ is available
+			if (totalchanges > threshold) begin
+			    `ifdef CHECK_ONLY_ROI
+				if (	((cogx>>12)>ROIXX1)&&((cogx>>12)<ROIX2)&&
+					((cogy>>12)>ROIY1)&&((cogy>>12)y<ROIY2)
+					) begin
+					triggerout <= 1;
+				end;
+			    `else
+				triggerout <= 1;
+			    `endif
+			end
+			else begin
+				triggerout <= 0;
+			end
+			
 			cogx = 0;
 			cogy = 0;
 			minx = 63;
@@ -263,12 +288,7 @@ always @(posedge clk or negedge reset_n) begin
 					if ((y>>3)>maxy) maxy = y>>3;
 					
 					totalchanges <= totalchanges + 1;
-					if (totalchanges > threshold) begin
-						triggerout <= 1;
-					end
-					else begin
-						triggerout <= 0;
-					end
+					
 				end
 				blockaverage <= 0;	
 			end
